@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lqtpushbuttonaligned"
+version = "0.1.0"
+description = "A Qt button on which you can set in which direction the text and its icon is aligned."
+authors = ["Liam Collod <monsieurlixm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+"Qt.py" = "^1"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+PySide2 = "^5.15"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
