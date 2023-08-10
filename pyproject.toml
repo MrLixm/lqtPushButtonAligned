@@ -5,7 +5,7 @@ description = "A Qt button on which you can set in which direction the text and 
 authors = ["Liam Collod <monsieurlixm@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "lqtPushButtonAligned" }
+    { include = "lqtPushButtonAligned.py" }
 ]
 
 
