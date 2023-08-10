@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "lqtpushbuttonaligned"
-version = "0.1.0"
+version = "1.0.0"
 description = "A Qt button on which you can set in which direction the text and its icon is aligned."
 authors = ["Liam Collod <monsieurlixm@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "lqtPushButtonAligned" }
+]
+
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
